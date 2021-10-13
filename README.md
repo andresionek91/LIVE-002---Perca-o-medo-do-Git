@@ -20,5 +20,17 @@ Instruções de instalação: https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-I
 * `git add -i` Abrir o menu interativo do git add (retirar arquivos de stage, colocar novos arquivos)
 * `git merge nome-do-branch` Vai mergear nome-do-branch dentro do branch atual
 * `git rebase nome-do-branch` Vai mudar o head do Branch atual para o HEAD do nome do branch
-* 
-* 
+* `git merge --abort` Vai abortar o merge quando tiver conflito
+* `git diff --check` Vai te mostrar todos os arquivos e as linhas que estão com conflito
+* `git merge --continue` Vai continuar o merge depois que os conflitos forem resolvidos e os arquivos adicionados para stage
+* `git rebase -i HEAD~5` Abre a janela de rebase interativo trazendo os últimos 5 commits. Possibilita que você mude a história do projeto
+* `git rebase --abort` Vai abortar o rebase em caso de conflito
+* `git rebase --continue` Vai continuar o rebase depois que os conflitos forem resolvidos e os arquivos adicionados para stage
+* `git remote add origin https://github.com/andresionek91/LIVE-002---Perca-o-medo-do-Git.git` Linka o repositório local com o repositório remoto
+* `git push -u origin master` Vai subir o branch master para a origin (repositório remoto /GitHub)
+* `git push` Vai subir as suas alterações do repositório local para o repositório remoto
+* `git pull` Vai baixar as alterações do repositório remoto para o local
+* `git stash save nome-do-stash` Salva as suas mudanças sem commitar
+* `git stash list` Lista os stashs disponíves
+* `git stash apply indice-do-stash` Aplicar as mudanças salvas no seu branch atual
+* `git push --force` Vai sobrescrever as mudanças no repositório remoto com as mudanças locais
