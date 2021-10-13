@@ -18,5 +18,5 @@ Instruções de instalação: https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-I
 * `git add nome-do-arquivo` Vai colocar o arquivo em stage, para que as mudanças sejam commitadas
 * `git add -A` ou `git add .` Adiciona todos os arquivos do projeto para stage
 * `git add -i` Abrir o menu interativo do git add (retirar arquivos de stage, colocar novos arquivos)
-* 
+* qualquer coisa que vai causar um conflito
 * 
