@@ -8,4 +8,5 @@ Instruções de instalação: https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-I
 * `git add` Adiciona arquivos
 * `git status` Mostra mudanças que serão commitadas
 * `git log` Mostra histórico de commits
+* `git commit` Cria um "checkpoint" no tempo com as mudanças feitas no arquivo
 * 
