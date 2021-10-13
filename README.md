@@ -23,7 +23,7 @@ Instruções de instalação: https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-I
 * `git merge --abort` Vai abortar o merge quando tiver conflito
 * `git diff --check` Vai te mostrar todos os arquivos e as linhas que estão com conflito
 * `git merge --continue` Vai continuar o merge depois que os conflitos forem resolvidos e os arquivos adicionados para stage
-* `git rebase -i` Abrir a janela de rebase interativo que possibilita que você mude a história do projeto
+* `git rebase -i HEAD~5` Abre a janela de rebase interativo trazendo os últimos 5 commits. Possibilita que você mude a história do projeto
 * `git rebase --abort` Vai abortar o rebase em caso de conflito
 * `git rebase --continue` Vai continuar o rebase depois que os conflitos forem resolvidos e os arquivos adicionados para stage
 * `git remote add origin https://github.com/andresionek91/LIVE-002---Perca-o-medo-do-Git.git` Linka o repositório local com o repositório remoto
