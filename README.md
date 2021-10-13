@@ -30,3 +30,7 @@ Instruções de instalação: https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-I
 * `git push -u origin master` Vai subir o branch master para a origin (repositório remoto /GitHub)
 * `git push` Vai subir as suas alterações do repositório local para o repositório remoto
 * `git pull` Vai baixar as alterações do repositório remoto para o local
+* `git stash save nome-do-stash` Salva as suas mudanças sem commitar
+* `git stash list` Lista os stashs disponíves
+* `git stash apply indice-do-stash` Aplicar as mudanças salvas no seu branch atual
+* `git push --force` Vai sobrescrever as mudanças no repositório remoto com as mudanças locais
